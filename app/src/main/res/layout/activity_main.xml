@@ -12,10 +12,11 @@
         android:layout_height="wrap_content"
         app:tabIndicatorFullWidth="false"
         app:tabMode="scrollable"
-        app:tabIndicatorHeight="2dp"
-        android:background="@color/colorPrimary"
         app:tabSelectedTextColor="@color/colorWhite"
-        app:tabTextColor="@color/colorRed"
+        app:tabTextColor="@color/colorGrey"
+        app:tabIndicatorHeight="3dp"
+        app:tabUnboundedRipple="true"
+        android:background="@color/colorPrimary"
         app:tabIndicatorColor="@color/colorRed"
         app:tabRippleColor="@color/transparent_color" />
 
